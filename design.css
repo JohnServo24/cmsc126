@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    background: url(sunset.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+}
+
+.navbar ul{
+    text-align: center;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 8px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size:20px;
+    padding: 6px 30px;
+    font-family:  Courier;
+    transition: .4s;
+}
+
+.navbar ul li a:hover {
+    background: red;
+    border-radius: 2px;
+}
+
+.wrapper .center {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Courier New', Courier, monospace;
+    user-select: none;
+}
+.center h1{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    width: 1500px;
+    text-align: center;
+}
+
+.center .buttons{
+    margin: 35px 280px;
+    text-align: center;
+}
+.buttons button {
+    margin-top: 10px;
+    height: 50px;
+    width: 500px;
+    font-size: 32px;
+    font-weight: bold;
+    color:white;
+    background: red;
+    border: 1px solid #cc0000;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: .4s;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.buttons button:hover {
+    background: #cc0000;
+}
+
+.buttons p {
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.buttons input {
+    margin-top: 20px;
+    height: 70px;
+    width: 500px;
+    font-size: 50px;
+    font-weight: bold;
+    border: 1px solid #cc0000;
+    outline: none;
+    border-radius: 10px;
+    transition: .4s;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.output {
+    margin: 35px 280px;
+    text-align: center;
+    margin-top: 50px;
+    outline: none;
+    border-radius: 10px;
+    transition: .4s;
+    background: #d85050;
+}
+
+.output p {
+    font-size: 30px;
+    text-align: center;
+    transition: .4s;
+    color: white;
+}
